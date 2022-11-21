@@ -4,6 +4,7 @@
   "scripts": { 
     "start": "sirv ./src public --cors --single --no-clear --port 8000",
     "playwright_test" : "playwright test"
+    RUN_BUILD_COMMAND
   },
   "devDependencies": {
     "@playwright/test": "^1.22.2"
